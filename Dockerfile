@@ -1,5 +1,5 @@
 # My first docker file.
-FROM node:latest
+FROM node:16-alpine3.14
 RUN echo "Tryin to build my first application"
 
 COPY . /var/www
